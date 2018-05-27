@@ -5,3 +5,5 @@ painter_assistant.egg-info/PKG-INFO
 painter_assistant.egg-info/SOURCES.txt
 painter_assistant.egg-info/dependency_links.txt
 painter_assistant.egg-info/top_level.txt
+roomBuilder/__init__.py
+roomBuilder/room.py
