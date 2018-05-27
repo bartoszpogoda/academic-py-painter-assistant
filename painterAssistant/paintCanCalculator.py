@@ -19,11 +19,11 @@ class PaintCanNeededCalculator:
 
         exact_need = room.surface / self.efficiency
         ceiled_need = math.ceil(exact_need)
-        actual_excess = exact_need/ceiled_need
+        actual_excess = 1.0 - exact_need/ceiled_need
 
         while actual_excess < self.minExcess:
             ceiled_need = ceiled_need + 1
-            actual_excess = exact_need/ceiled_need
+            actual_excess = 1.0 - exact_need/ceiled_need
 
         return ceiled_need, actual_excess
 

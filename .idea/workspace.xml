@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6550acf8-76e6-49ac-865c-95979151104a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/roomBuilder/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roomBuilder/room.py" beforeDir="false" afterPath="$PROJECT_DIR$/roomBuilder/roomBuilder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/painterAssistant/paintCanCalculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/painterAssistant/paintCanCalculator.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,16 +13,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="paintCanCalculator.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="paintCanCalculator.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/painterAssistant/paintCanCalculator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="364">
+              <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="room.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="room.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/roomBuilder/room.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="21">
@@ -123,9 +122,9 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/tests/test.py" />
         <option value="$PROJECT_DIR$/roomBuilder/room.py" />
-        <option value="$PROJECT_DIR$/painterAssistant/paintCanCalculator.py" />
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/roomBuilder/__init__.py" />
+        <option value="$PROJECT_DIR$/painterAssistant/paintCanCalculator.py" />
       </list>
     </option>
   </component>
@@ -233,14 +232,14 @@
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25383395" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25383395" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.36746302" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3287827" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3287827" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -446,13 +445,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/painterAssistant/paintCanCalculator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -478,6 +470,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/painterAssistant/paintCanCalculator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
         </state>
       </provider>
     </entry>
