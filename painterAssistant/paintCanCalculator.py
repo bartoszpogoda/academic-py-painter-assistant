@@ -1,6 +1,6 @@
 import math
 
-def how_many_needed(width, height, paintCanInfo):
+def how_many_needed(width, height, canEfficiency):
     """Calculate number of paint cans needed to paint the wall of given dimensions.
 
     Keyword arguments:
@@ -10,5 +10,5 @@ def how_many_needed(width, height, paintCanInfo):
 
     """
 
-    return math.ceil(width*height / paintCanInfo.efficiency)
+    return math.ceil(width*height / canEfficiency)
 
