@@ -1,14 +1,29 @@
 import math
 
-def how_many_needed(width, height, paintCanInfo):
-    """Calculate number of paint cans needed to paint the wall of given dimensions.
 
-    Keyword arguments:
-    width -- wall width in meters
-    height -- wall height in meters
-    paintCanInfo -- PaintCanInfo object describing paint can
+class PaintCanNeededCalculator:
 
-    """
+    def __init__(self):
+        self.minExcess = 0.0
+        self.efficiency = None
 
-    return math.ceil(width*height / paintCanInfo.efficiency)
+    def set_min_excess(self, min_excess):
+        self.minExcess = min_excess
+
+    def set_paint_can_efficiency(self, efficiency):
+        self.efficiency = efficiency
+
+    def calculate(self, room):
+        if self.efficiency is None:
+            raise ValueError('Paint can efficiency wasn\'t set before calling calculate method')
+
+        exact_need = room.surface / self.efficiency
+        ceiled_need = math.ceil(exact_need)
+        actual_excess = exact_need/ceiled_need
+
+        while actual_excess < self.minExcess:
+            ceiled_need = ceiled_need + 1
+            actual_excess = exact_need/ceiled_need
+
+        return ceiled_need, actual_excess
 
