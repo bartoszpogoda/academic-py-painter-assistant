@@ -1,0 +1,7 @@
+setup.py
+painterAssistant/__init__.py
+painterAssistant/paintCanCalculator.py
+painter_assistant.egg-info/PKG-INFO
+painter_assistant.egg-info/SOURCES.txt
+painter_assistant.egg-info/dependency_links.txt
+painter_assistant.egg-info/top_level.txt
