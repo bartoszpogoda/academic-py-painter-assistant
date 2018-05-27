@@ -1,6 +1,6 @@
 
 ```
-pip install -U PyQt5
+pip install -r requirements.txt
 ```
 
 App uses 0.1 version of library. It can be downloaded using

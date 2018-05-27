@@ -1,0 +1,2 @@
+git+git://github.com/bartoszpogoda/academic-py-painter-assistant.git#egg=painter-assistant==0.1
+PyQt5
